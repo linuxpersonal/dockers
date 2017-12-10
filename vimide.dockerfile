@@ -9,7 +9,7 @@ RUN apk update \
 && apk add python-dev python3-dev       
 
 WORKDIR /scripts                                   
-CMD ["/bin/bash"]                                  
+CMD ["/bin/sh"]                                  
 
 ## Run the below commands via docker terminal after build
 # vim +PlugInstall +qall                       
